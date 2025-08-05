@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{85f428d9-07aa-4c8b-ba82-a8bb0d982cb1}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	a: int ;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[Prg_Test();
+
+a:= a+1;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

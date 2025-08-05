@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FC_Add_Test" Id="{98982c2b-aa2c-43eb-9c3a-ebe56057bc11}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FC_Add_Test EXTENDS FB_TestSuite
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[THis^.WhenAAndBArePositveNumbers_ReturnApositivenumber();]]></ST>
+    </Implementation>
+    <Method Name="WhenAAndBArePositveNumbers_ReturnApositivenumber" Id="{7cff458c-6909-4aa8-bae2-91b3822c1db8}">
+      <Declaration><![CDATA[METHOD PRIVATE WhenAAndBArePositveNumbers_ReturnApositivenumber
+VAR
+	a : WORD := 2;
+	b : WORD := 3;
+	
+	actualResult: WORD;
+	expectedResult : WORD := 5;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[TEST('WhenAAndBArePositveNumbers_ReturnApositivenumber');
+
+//arrange
+expectedResult := a+b;
+
+//action
+actualResult :=  FC_Add(a,b);
+
+//assert
+THIS^.AssertEquals(expectedResult, actualResult,
+					Message:= 'The values do not match');
+
+Test_Finished();]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

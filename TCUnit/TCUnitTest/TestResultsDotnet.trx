@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f99380c5-66dc-4160-aff2-ff40b4cc4ce4" name="sobon@DESKTOP-6R4P20U 2025-05-16 21:11:13" runUser="DESKTOP-6R4P20U\sobon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-16T21:11:13.5218926+02:00" queuing="2025-05-16T21:11:13.5218930+02:00" start="2025-05-16T21:11:11.1113402+02:00" finish="2025-05-16T21:11:13.5342087+02:00" />
+  <TestSettings name="default" id="9ce167ee-8de3-4a9b-8f1e-3fb20fcd5c69">
+    <Deployment runDeploymentRoot="sobon_DESKTOP-6R4P20U_2025-05-16_21_11_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="aa59d4b9-c4aa-43c9-b25d-3cd245943bde" testId="fe5c063a-bd25-cf14-9c5e-6f210159deb9" testName="sampleBib.Tests.MathTests.DivideTest" computerName="DESKTOP-6R4P20U" duration="00:00:00.0010000" startTime="2025-05-16T21:11:13.1363450+02:00" endTime="2025-05-16T21:11:13.1363450+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa59d4b9-c4aa-43c9-b25d-3cd245943bde" />
+    <UnitTestResult executionId="ff734b96-1d9a-4890-bb37-aa66eb67ff19" testId="b29924ac-d3cb-b384-7c69-ee00d2c0c835" testName="sampleBib.Tests.MathTests.CalcTest(left: 5, right: 0, expected: 200)" computerName="DESKTOP-6R4P20U" duration="00:00:00.0250000" startTime="2025-05-16T21:11:13.1263450+02:00" endTime="2025-05-16T21:11:13.1263450+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff734b96-1d9a-4890-bb37-aa66eb67ff19" />
+    <UnitTestResult executionId="8179725b-1733-4d0a-8e90-ea7d5de5cc8e" testId="9a6d75c2-e26c-ae75-db5d-e9761b52db9b" testName="sampleBib.Tests.MathTests.DivideReturnsZeroWhenleftOrRightIsZeroTest(left: 0, right: 5)" computerName="DESKTOP-6R4P20U" duration="00:00:00.0010000" startTime="2025-05-16T21:11:13.1373446+02:00" endTime="2025-05-16T21:11:13.1373446+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8179725b-1733-4d0a-8e90-ea7d5de5cc8e" />
+    <UnitTestResult executionId="209c36b7-0af6-4674-8c49-d610a2e135d8" testId="59a35687-6f05-d580-f801-6bcbf90cac50" testName="sampleBib.Tests.MathTests.DivideReturnsZeroWhenleftOrRightIsZeroTest(left: 0, right: 4)" computerName="DESKTOP-6R4P20U" duration="00:00:00.0010000" startTime="2025-05-16T21:11:13.1383445+02:00" endTime="2025-05-16T21:11:13.1383445+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="209c36b7-0af6-4674-8c49-d610a2e135d8" />
+    <UnitTestResult executionId="58b541ad-10f6-49e1-81d5-b4586b9634cc" testId="caeaa6ce-9b03-2525-c489-bd1c62a34019" testName="sampleBib.Tests.MathTests.CalcTest(left: 0, right: 4, expected: 100)" computerName="DESKTOP-6R4P20U" duration="00:00:00.0010000" startTime="2025-05-16T21:11:13.1353452+02:00" endTime="2025-05-16T21:11:13.1353452+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58b541ad-10f6-49e1-81d5-b4586b9634cc" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="sampleBib.Tests.MathTests.DivideReturnsZeroWhenleftOrRightIsZeroTest(left: 0, right: 4)" storage="e:\programming\codecoverage\src\samplebib.tests\bin\debug\net472\samplebib.tests.dll" id="59a35687-6f05-d580-f801-6bcbf90cac50">
+      <Execution id="209c36b7-0af6-4674-8c49-d610a2e135d8" />
+      <TestMethod codeBase="E:\Programming\CodeCoverage\src\sampleBib.Tests\bin\Debug\net472\sampleBib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/net" className="sampleBib.Tests.MathTests" name="DivideReturnsZeroWhenleftOrRightIsZeroTest" />
+    </UnitTest>
+    <UnitTest name="sampleBib.Tests.MathTests.CalcTest(left: 5, right: 0, expected: 200)" storage="e:\programming\codecoverage\src\samplebib.tests\bin\debug\net472\samplebib.tests.dll" id="b29924ac-d3cb-b384-7c69-ee00d2c0c835">
+      <Execution id="ff734b96-1d9a-4890-bb37-aa66eb67ff19" />
+      <TestMethod codeBase="E:\Programming\CodeCoverage\src\sampleBib.Tests\bin\Debug\net472\sampleBib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/net" className="sampleBib.Tests.MathTests" name="CalcTest" />
+    </UnitTest>
+    <UnitTest name="sampleBib.Tests.MathTests.CalcTest(left: 0, right: 4, expected: 100)" storage="e:\programming\codecoverage\src\samplebib.tests\bin\debug\net472\samplebib.tests.dll" id="caeaa6ce-9b03-2525-c489-bd1c62a34019">
+      <Execution id="58b541ad-10f6-49e1-81d5-b4586b9634cc" />
+      <TestMethod codeBase="E:\Programming\CodeCoverage\src\sampleBib.Tests\bin\Debug\net472\sampleBib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/net" className="sampleBib.Tests.MathTests" name="CalcTest" />
+    </UnitTest>
+    <UnitTest name="sampleBib.Tests.MathTests.DivideReturnsZeroWhenleftOrRightIsZeroTest(left: 0, right: 5)" storage="e:\programming\codecoverage\src\samplebib.tests\bin\debug\net472\samplebib.tests.dll" id="9a6d75c2-e26c-ae75-db5d-e9761b52db9b">
+      <Execution id="8179725b-1733-4d0a-8e90-ea7d5de5cc8e" />
+      <TestMethod codeBase="E:\Programming\CodeCoverage\src\sampleBib.Tests\bin\Debug\net472\sampleBib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/net" className="sampleBib.Tests.MathTests" name="DivideReturnsZeroWhenleftOrRightIsZeroTest" />
+    </UnitTest>
+    <UnitTest name="sampleBib.Tests.MathTests.DivideTest" storage="e:\programming\codecoverage\src\samplebib.tests\bin\debug\net472\samplebib.tests.dll" id="fe5c063a-bd25-cf14-9c5e-6f210159deb9">
+      <Execution id="aa59d4b9-c4aa-43c9-b25d-3cd245943bde" />
+      <TestMethod codeBase="E:\Programming\CodeCoverage\src\sampleBib.Tests\bin\Debug\net472\sampleBib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/net" className="sampleBib.Tests.MathTests" name="DivideTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fe5c063a-bd25-cf14-9c5e-6f210159deb9" executionId="aa59d4b9-c4aa-43c9-b25d-3cd245943bde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b29924ac-d3cb-b384-7c69-ee00d2c0c835" executionId="ff734b96-1d9a-4890-bb37-aa66eb67ff19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a6d75c2-e26c-ae75-db5d-e9761b52db9b" executionId="8179725b-1733-4d0a-8e90-ea7d5de5cc8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59a35687-6f05-d580-f801-6bcbf90cac50" executionId="209c36b7-0af6-4674-8c49-d610a2e135d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caeaa6ce-9b03-2525-c489-bd1c62a34019" executionId="58b541ad-10f6-49e1-81d5-b4586b9634cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit Desktop .NET 4.0.30319.42000)&#xD;
+[xUnit.net 00:00:00.22]   Discovering: sampleBib.Tests&#xD;
+[xUnit.net 00:00:00.28]   Discovered:  sampleBib.Tests&#xD;
+[xUnit.net 00:00:00.28]   Starting:    sampleBib.Tests&#xD;
+[xUnit.net 00:00:00.41]   Finished:    sampleBib.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="DESKTOP-6R4P20U" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="DESKTOP-6R4P20U\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

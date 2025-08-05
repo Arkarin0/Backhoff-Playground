@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FC_Add" Id="{5ab2304d-3d82-4d00-b605-b47bcc588cfb}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION FC_Add : WORD
+VAR_INPUT
+	a :WORD;
+	b :WORD;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[FC_Add := a+b;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

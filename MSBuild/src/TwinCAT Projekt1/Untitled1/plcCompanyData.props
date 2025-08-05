@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<Company>MSBuildCopmany1</Company>
+		<Released>true</Released>
+		<Title>MSBUIILDTitle</Title>
+		<ProjectVersion>1.0.0</ProjectVersion>
+		<Author>MSBAuthor</Author>
+		<Description>MSBdescription</Description>
+	</PropertyGroup>	
+</Project>

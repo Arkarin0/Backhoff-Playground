@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites failures="0" tests="1">
+  <testsuite id="0" name="PRG_Test.FC_AddTests" tests="1" failures="0">
+    <testcase name="WhenAAndBArePositveNumbers_ReturnApositivenumber" assertions="1" classname="PRG_Test.FC_AddTests" status="PASS" />
+  </testsuite>
+</testsuites>

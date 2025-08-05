@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project> 
+  <Import Project="GeneratePkgDef.targets" Condition="'!$(IsWixProject)'"/>
+  <Import Project="CommonAnalyzers.targets"/>
+  <Import Project="XUnit.targets"/>
+  
+  <Import Project="WMSDetection.Components.targets"/>  
+  <Import Project="WMSDetectionApp.targets"/>
+  
+  <Import Project="Logging.targets"/>
+  <Import Project="WiX.targets" Condition="'$(IsWixProject)'"/>
+</Project>

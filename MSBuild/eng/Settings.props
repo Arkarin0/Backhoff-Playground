@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<IsTwincatPLCProject Condition="'$(MSBuildProjectExtension)'=='.plcproj'">true</IsTwincatPLCProject>
+		<IsTwincatPLCProject Condition="'$(MSBuildProjectExtension)'!='.plcproj'">false</IsTwincatPLCProject>
+	</PropertyGroup>
+
+	<Import Project="TwinCat.props" Condition="'$(IsTwincatPLCProject)'"/>
+
+</Project>
